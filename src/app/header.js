@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <>
+    <header>
       <div>
         <p>Truth Bomb Social</p>
       </div>
@@ -16,7 +16,7 @@ export default function Header() {
           </li>
         </ul>
       </nav>
-    </>
+    </header>
   )
 }
 
