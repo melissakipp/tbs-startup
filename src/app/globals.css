@@ -14,9 +14,10 @@ body {
 }
 
 .solidBg {
-  background: linear-gradient(210deg, rgba(42, 84, 125, 1) 0%, rgba(58, 115, 171, 1) 84%);
-  background: -moz-linear-gradient(210deg, rgba(42, 84, 125, 1) 0%, rgba(58, 115, 171, 1) 100%);
-  background: -webkit-linear-gradient(210deg, rgba(42, 84, 125, 1) 0%, rgba(58, 115, 171, 1) 100%);
+  background: linear-gradient(315deg, hsla(198, 45%, 65%, 1) 0%, hsla(210, 24%, 60%, 1) 50%, hsla(210, 50%, 33%, 1) 100%);
+  background: -moz-linear-gradient(315deg, hsla(198, 45%, 65%, 1) 0%, hsla(210, 24%, 60%, 1) 50%, hsla(210, 50%, 33%, 1) 100%);
+  background: -webkit-linear-gradient(315deg, hsla(198, 45%, 65%, 1) 0%, hsla(210, 24%, 60%, 1) 50%, hsla(210, 50%, 33%, 1) 100%);
+  /* background-color: #081A27; */
 }
 
 .logoContainer {
