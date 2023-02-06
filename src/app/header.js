@@ -1,17 +1,17 @@
-import Link from "next/link";
+import Link from 'next/link';
 
 export default function Header() {
   return (
-    <header>
-      <div>
-        <p>Truth Bomb Social</p>
+    <header className='siteNav'>
+      <div className='logoContainer'>
+        <p className='logo'>Truth Bomb Social</p>
       </div>
       <nav>
-        <ul>
-          <li>
+        <ul className='siteNav__list'>
+          <li className='siteNav__item'>
             <Link href="/">Home</Link>
           </li>
-          <li>
+          <li className='siteNav__item'>
             <Link href="/about">About</Link>
           </li>
         </ul>
