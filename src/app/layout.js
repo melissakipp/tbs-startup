@@ -1,4 +1,5 @@
 import Header from './header';
+import Footer from './footer';
 
 import './globals.css'
 
@@ -17,9 +18,10 @@ export default function RootLayout({ children }) {
         head.js. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <body>
+      <body className='solidBg'>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   )
