@@ -1,5 +1,5 @@
-// import Image from 'next/image';
 import { Inter } from '@next/font/google';
+import Link from 'next/link';
 import styles from './page.module.css';
 
 const inter = Inter({ subsets: ['latin'] })
@@ -7,8 +7,7 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
   return (
   <>
-    <main className={styles.main}>
-      
+    <main className={styles.main}> 
       <article className={styles.cta__box}>
         <div className={styles.cta__text}>
           <section>
@@ -16,8 +15,8 @@ export default function Home() {
             <p>Join the movement and be the first to know about our latest developments, and updates!</p>
             <p>Sign up for our newsletter now and stay informed about the fight against disinformation.</p>
           </section>
-          <section className={styles.formContainer}>
-            <form className={styles.form}>
+          <section className={styles.formContainer}>                
+            {/* <form className={styles.form}>
               <fieldset className={styles.form__fieldset}>
                 <label className="screen-reader-text" htmlFor="email">Enter Email</label>
                 <input 
@@ -27,13 +26,14 @@ export default function Home() {
                   placeholder='Email Address'
                 />
               </fieldset>
-            </form>
+            </form> */}
+            <div className={styles.signUp}>
+              <Link className={styles.signUpLink} href="/newsletterSignUp.html">Sign Up</Link>
+            </div>
           </section>
         </div>
       </article>
     </main>
   </>
-
-
   );
 }
