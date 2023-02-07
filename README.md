@@ -5,7 +5,6 @@
 
 **Technology stack:** 
 - Next.js
-- SCSS
 
 **Dependencies:** To get started with the application, you will need to have the following software installed on your computer:
 - Node.js & NPM (Node Package Manager)
